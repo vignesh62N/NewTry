@@ -61,4 +61,8 @@ public String setCar(@RequestBody Car c) {
 		return x;
 				
 	}
+	@GetMapping("/name")
+	public String Name() {
+		return "viki";
+	}
 }
